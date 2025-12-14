@@ -1,4 +1,4 @@
-
+// محمد خالد الدحيش خلاوي احمد
 
 import java.util.Scanner;
 
@@ -75,7 +75,7 @@ public class AffineCipher {
         int a = sc.nextInt();
 
         if (gcd(a, 26) != 1) {
-            System.out.println("Error: a is NOT coprime with 26! Program stopped.");
+            System.out.println("Error: a is NOT coprime with 26 Program stopped.");
             return;
         }
         System.out.print("Enter value of b: ");
